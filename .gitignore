@@ -5,3 +5,4 @@ output/
 *.ipynb
 .env
 .vscode
+*.egg-info
