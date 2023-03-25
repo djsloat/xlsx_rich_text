@@ -15,7 +15,7 @@ run_repr.maxlevel = 1
 class Run:
     """Rich text run formatting."""
 
-    def __init__(self, text, props):
+    def __init__(self, text: str, props: dict[str, dict]):
         self.text = text
         self.props = props
 
